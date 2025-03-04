@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get('/',(req,res)=>{
-    res.status(200).send('Hello Ronit!');
+    res.status(200).send('Hello Ronit! How are you?');
 })
 
 // Inserting the data
