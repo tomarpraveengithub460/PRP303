@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get('/',(req,res)=>{
-    res.status(200).send('Hello Ronit! with &#x1F49D;');
+    res.status(200).send('Hello Ronit!');
 })
 
 // Inserting the data
